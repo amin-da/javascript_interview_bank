@@ -207,7 +207,6 @@ You will find two main sections in here :
         return false;
       }
     }
-    if (stack.length != 0) return false;
     return stack.length != 0 ? false : true;
   }
   
