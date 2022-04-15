@@ -118,6 +118,7 @@ You will find two main sections in here :
   ```
 
 - function that will return min and max number in an array
+
   solution 1 :
 
   ```javascript
