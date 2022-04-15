@@ -1,7 +1,4 @@
-
 # Welcome to JavaScript Interview Bank!
-
-  
 
 Hi! We are going to collect all useful javascript interview questions and exercises in here!
 
@@ -11,31 +8,19 @@ Also it will be good if you make any useful changes in it and send pull request 
 
 As you probably guess this is not a regular text file and this is an **\*.md** file. To edit this kind of files you can anything you want but we recommend [StackEdit](https://stackedit.io/)
 
-  
-
 ## Sections
-
-  
 
 All questions and exercises are in this single file.
 
 You will find two main sections in here :
 
-  
-
 1. Questions
 
 2. Exercises
 
-  
-
 ## Questions :
 
-  
-
 **Level : Junior**
-
-  
 
 - what is NodeJs?
 
@@ -63,11 +48,7 @@ You will find two main sections in here :
 
 - scope
 
-  
-
 **Level : Middle**
-
-  
 
 - sync vs async
 
@@ -103,11 +84,7 @@ You will find two main sections in here :
 
 - difference between req.params and req.query in Http requests.
 
-  
-
 **Level : Senior**
-
-  
 
 - shat is body-parser?
 
@@ -117,51 +94,49 @@ You will find two main sections in here :
 
 - delegation
 
-  
-
 ## Questions :
-
-  
 
 **Level : Junior**
 
-  
-
 - function that will return true if string is palindrome
   solution 1 :
-  
-	```javascript
-	function isPalindrome(str) {
-		return str.split("").reverse().join("") === str;
-	}
-	```
+
+  ```javascript
+  function isPalindrome(str) {
+    return str.split("").reverse().join("") === str;
+  }
+  ```
+
   solution 2 :
-  
-	```javascript
-	function isPalindrome(str) {
-		return str
-		.split("")
-		.every((char, index) =>  char === str[str.length - index - 1]);
-	}
-	```
-	
+
+  ```javascript
+  function isPalindrome(str) {
+    return str
+      .split("")
+      .every((char, index) => char === str[str.length - index - 1]);
+  }
+  ```
+
 - function that will return min and max number in an array
-	solution 1 :
-	```javascript
-	function getMinMax(arr) {
-		return {
-			min: Math.min(...arr),
-			max: Math.max(...arr),
-		};
-	}
-	```
-	solution 2 :
-	```javascript
-	function  getMinMax(arr) {
-		const  sortedArray = arr.sort((a, b) =>  a - b);
-		return {
-			min:  sortedArray[0],
-			max:  sortedArray[sortedArray.length - 1],
-		};
-	}
-		```
+  solution 1 :
+
+  ```javascript
+  function getMinMax(arr) {
+    return {
+      min: Math.min(...arr),
+      max: Math.max(...arr),
+    };
+  }
+  ```
+
+  solution 2 :
+
+  ```javascript
+  function getMinMax(arr) {
+    const sortedArray = arr.sort((a, b) => a - b);
+    return {
+      min: sortedArray[0],
+      max: sortedArray[sortedArray.length - 1],
+    };
+  }
+  ```
