@@ -142,3 +142,26 @@ You will find two main sections in here :
     };
   }
   ```
+  
+  solution 3 :
+
+  ```javascript
+  function getMinMax(arr) {
+    let min = arr[0];
+    let max = arr[0];
+
+    for (let current of arr) {
+      if (current > max) {
+        max = current;
+      }
+
+      if (current < min) {
+        min = current;
+      }
+    }
+    return {
+      min,
+      max,
+    };
+  }
+  ```
