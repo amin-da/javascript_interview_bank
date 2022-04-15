@@ -193,3 +193,26 @@ You will find two main sections in here :
   console.log(isBalanced("()()))()"));
   //false
   ```
+  
+  solution 2 (previous solution refactored) :
+
+  ```javascript
+  function isBalanced(str) {
+    const stack = [];
+
+    for (let char of str) {
+      if (char === "(") {
+        stack.push(char);
+      } else if (stack.pop() !== "(") {
+        return false;
+      }
+    }
+    if (stack.length != 0) return false;
+    return stack.length != 0 ? false : true;
+  }
+  
+  console.log(isBalanced("()()()"));
+  //true
+  console.log(isBalanced("()()))()"));
+  //false
+  ```
