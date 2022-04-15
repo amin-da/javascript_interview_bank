@@ -6,7 +6,7 @@ This repository is free to use and fork and anything you want!
 
 Also it will be good if you make any useful changes in it and send pull request to publish.
 
-As you probably guess this is not a regular text file and this is an **\*.md** file. To edit this kind of files you can anything you want but we recommend [StackEdit](https://stackedit.io/)
+As you probably guess this is not a regular text file and this is an **\*.md** file. To edit this kind of files you can anything you want but we recommend Github raw edit option (pencil symbol)
 
 ## Sections
 
