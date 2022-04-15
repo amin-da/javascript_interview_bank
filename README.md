@@ -128,7 +128,6 @@ You will find two main sections in here :
   
 
 - function that will return true if string is palindrome
-
   solution 1 :
   
 	```javascript
@@ -145,3 +144,24 @@ You will find two main sections in here :
 		.every((char, index) =>  char === str[str.length - index - 1]);
 	}
 	```
+	
+- function that will return min and max number in an array
+	solution 1 :
+	```javascript
+	function getMinMax(arr) {
+		return {
+			min: Math.min(...arr),
+			max: Math.max(...arr),
+		};
+	}
+	```
+	solution 2 :
+	```javascript
+	function  getMinMax(arr) {
+		const  sortedArray = arr.sort((a, b) =>  a - b);
+		return {
+			min:  sortedArray[0],
+			max:  sortedArray[sortedArray.length - 1],
+		};
+	}
+		```
