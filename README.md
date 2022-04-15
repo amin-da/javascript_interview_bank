@@ -99,6 +99,7 @@ You will find two main sections in here :
 **Level : Junior**
 
 - function that will return true if string is palindrome
+
   solution 1 :
 
   ```javascript
