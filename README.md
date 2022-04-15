@@ -165,3 +165,31 @@ You will find two main sections in here :
     };
   }
   ```
+  
+- function that will verify if string has balanced parenthesis
+
+  solution 1 :
+
+  ```javascript
+  function isBalanced(str) {
+    const stack = [];
+
+    for (let char of str) {
+      if (char === "(") {
+        stack.push(char);
+      } else {
+        const lastStackItem = stack.pop();
+        if (lastStackItem !== "(") {
+          return false;
+        }
+      }
+    }
+    if (stack.length != 0) return false;
+    return true;
+  }
+  
+  console.log(isBalanced("()()()"));
+  //true
+  console.log(isBalanced("()()))()"));
+  //false
+  ```
