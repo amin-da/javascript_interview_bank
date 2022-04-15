@@ -67,6 +67,7 @@ You will find two main sections in here :
 solution 1 :
 
 ```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
+function isPalindrome(str) {
+  return str.split("").reverse().join("") === str;
+}
 ```
