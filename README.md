@@ -22,13 +22,25 @@ You will find two main sections in here :
 
 **Level : Junior**
 
+- what is "use strict"?
+
 - what is NodeJs?
+
+- wahi is ECMAScript?
 
 - what is run time environment?
 
 - what is JSON?
 
+- what is Falsy values?
+
+- what is Logical operators?
+
+- what is DOM?
+
 - data types?
+
+- what is wrapper object?
 
 - difference between primitive and referenced types?
 
@@ -48,6 +60,16 @@ You will find two main sections in here :
 
 - scope
 
+- explain some Feature in ES6
+
+- explain spread operator
+
+- explain Object Destructuring 
+
+- explain Default Parameters
+
+- what is continue operator?
+
 **Level : Middle**
 
 - sync vs async
@@ -55,6 +77,10 @@ You will find two main sections in here :
 - callback
 
 - promise
+
+- what is Microtasks?
+
+- explain Promisification
 
 - async/await
 
@@ -68,14 +94,18 @@ You will find two main sections in here :
 
 - higher order function
 
+- what is First class citizen(Object)?
+
 - prototype
 
 - currying function
 
 - memoization
 
-- prototype
+- explain prototype chain
 
+- what is Own Properties in objects ?
+ 
 - closure
 
 - recursion
@@ -83,6 +113,27 @@ You will find two main sections in here :
 - eval
 
 - difference between req.params and req.query in Http requests.
+
+- explain Nullish Coalescing 
+
+- explain Logical OR 
+
+- explain Logical AND
+
+- explain Ternary operators
+
+- explain Factory Function and Constructor functions 
+
+- what is IIFE? What is it used for?
+
+- explain Execution Contexts
+
+- what is constructor method in calss ?
+
+- what is the difference between freeze and seal methods in objects?
+
+- what is Web components?
+
 
 **Level : Senior**
 
