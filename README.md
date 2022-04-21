@@ -80,10 +80,10 @@ You will find two main sections in here :
 
 - null , undefined (flexiple.com)
 
-| Keyword  | data type  | arithmetic operations  |  boolean value | comparing |
-| ------------ | ------------ | ------------ | ------------ |------------ |
-| undefined  | undefined  |  undefined + 1 //NaN |  !!undefined //false | null == undefined //true |
-|  null | object (but it considered as primitive)  | null + 1 // 0  | !!null //false  | null === undefined //false |
+| Keyword  | data type  | arithmetic operations  |  boolean value | comparing | description |
+| ------------ | ------------ | ------------ | ------------ |------------ | ------------ |
+| undefined  | undefined  |  undefined + 1 //NaN |  !!undefined //false | null == undefined //true | means a variable has been declared but has not yet been assigned a value |
+|  null | object (but it considered as primitive)  | null + 1 // 0  | !!null //false  | null === undefined //false | It can be assigned to a variable as a representation of no value|
 
 
 - hositing (medium.com/swlh/is-let-really-not-hoisted-abb75c38607e)
