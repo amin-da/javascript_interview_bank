@@ -76,7 +76,7 @@ You will find two main sections in here :
 | :------------ | :------------ | :------------ | :------------ | :------------ |
 |  var |  Function  |  Yes  |  Yes  | Yes |
 |  let |  Block  |  No (but actually yes!)  | Yes   | Yes |
-|  const | Block   | No   | Yes (but actually yes!)   | Yes |
+|  const | Block   | No (but actually yes!)   |  No  | Yes |
 
 
 - null , undefined
