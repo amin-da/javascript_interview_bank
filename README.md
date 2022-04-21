@@ -72,6 +72,13 @@ You will find two main sections in here :
 
 - let , var , const 
 
+|  Keyword  |  Scope  | Hoisting   | Can Be Reassigned  | Can Be Redeclared|
+| :------------ | :------------ | :------------ | :------------ | :------------ |
+|  var |  Function  |  Yes  |  Yes  | Yes |
+|  let |  Block  |  No (but actually yes!)  | Yes   | Yes |
+|  const | Block   | No   | Yes (but actually yes!)   | Yes |
+
+
 - null , undefined
 
 - hositing (medium.com/swlh/is-let-really-not-hoisted-abb75c38607e)
