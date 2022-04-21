@@ -40,8 +40,16 @@ You will find two main sections in here :
 
 - what is "use strict"?
 
-
 - what is run time environment?
+	- *CodeAcademy* : A runtime environment is where your program will be executed. It determines what global objects your program can access and it can also impact how it runs.
+	- *Google* : In Apps Script and JavaScript, a runtime or runtime environment contains the JavaScript engine that parses and executes script code. The runtime provides rules for how memory is accessed, how the program can interact with the computer's operating system, and what program syntax is legal.
+	- *Medium (gemma.stiles)* : The JavaScript runtime environment provides access to built-in libraries and objects that are available to a program so that it can interact with the outside world and make the code work. In the context of a browser this is comprised of the following elements: 
+		- The JavaScript engine (which in turn is made up of the heap and the call stack)
+		- Web APIs
+		- The callback queue 
+		- The event loop
+
+	Its good to be mindful that the runtime environment can take on different forms based on the context, for example, the runtime environment in a browser is very different from that of Node.js. These differences are primarily at the implementation level, so most of the following concepts are still relevant.
 
 - what is JSON?
 
