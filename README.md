@@ -62,7 +62,9 @@ You will find two main sections in here :
 | Symbol   | data type whose instances are unique and immutable  | let value = Symbol('hello');  |
 | Object   |  key-value pairs of collection of data	 |  let student = { }; |
 
-- let , var , const (medium.com/swlh/is-let-really-not-hoisted-abb75c38607e)
+- scope
+
+- let , var , const 
 
 - null , undefined
 
