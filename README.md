@@ -62,7 +62,13 @@ You will find two main sections in here :
 | Symbol   | data type whose instances are unique and immutable  | let value = Symbol('hello');  |
 | Object   |  key-value pairs of collection of data	 |  let student = { }; |
 
-- scope
+- scope 
+	- *dmitripavlutin.com* : Scope refers to the availability of variables and functions in certain parts of the code. The inner scope can access the variables of its outer scope. In JavaScript, a variable has two types of scope:
+		- Global Scope
+		- Module Scope (es2015)
+		- Local Scope
+			- Block level ( let , const)
+			- Function level ( var )
 
 - let , var , const 
 
