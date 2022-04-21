@@ -22,9 +22,13 @@ You will find two main sections in here :
 
 **Level : Junior**
 
-- what is "use strict"?
+- what is JavaScript?
+   *1
+    *2
 
 - what is NodeJs?
+
+- what is "use strict"?
 
 - wahi is ECMAScript?
 
