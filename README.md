@@ -97,8 +97,31 @@ You will find two main sections in here :
 | falsy  |  false , 0 , -0 , 0n (The BigInt zero) , "" , '' , null , undefined , NaN   |
 |  truthy |  other values |
 
+- operators (MDN)
+	- Assignment operators
+	- Comparison operators
+	- Arithmetic operators
+	- Bitwise operators
+	- Logical operators
+	- String operators
+	- Conditional (ternary) operator
+	- Comma operator
+	- Unary operators
+	- Relational operators
 
-- logical operators?
+- logical operators (w3schools)
+
+| Operator   | Description   | Comparing (x=5)   |  Returns  |
+| :------------ | :------------ | :------------ | :------------ |
+| ==  |  equal to | x == 5  |  true |
+|  ===	 | equal value and equal type  |  	x === "5" | false  |
+|  !=| not equal  | x != 5  | false  |
+|!==   | not equal value or not equal type  | x !== "5"  | true  |
+|  > | 	greater than  | x > 10  | false  |
+| <  |  less than | x < 10  | true  |
+| >=  |  greater than or equal to (same type) |  x >=10 | false  |
+| <=  | less than or equal to (same type)  |  x<=10 |  true  |
+
 
 - == , ===
 
