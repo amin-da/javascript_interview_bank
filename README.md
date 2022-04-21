@@ -23,14 +23,20 @@ You will find two main sections in here :
 **Level : Junior**
 
 - what is JavaScript?
-	- MDN : JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
-	- W3Schools : JavaScript is the Programming Language for the Web. Can update and change both HTML and CSS. Can calculate, manipulate and validate data
+	- *Javascript.info* : JavaScript was initially created to “make web pages alive”. The programs in this language are called scripts. They can be written right in a web page’s HTML and run automatically as the page loads. Scripts are provided and executed as plain text. They don’t need special preparation or compilation to run. In this aspect, JavaScript is very different from another language called Java.
+	- *MDN* : JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
+	- *W3Schools* : JavaScript is the Programming Language for the Web. Can update and change both HTML and CSS. Can calculate, manipulate and validate data
+	- *Wikipedia* : JavaScript often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS. Over 97% of websites use JavaScript on the client side for web page behavior, often incorporating third-party libraries.  All major web browsers have a dedicated JavaScript engine to execute the code on users' devices. JavaScript is a high-level, often just-in-time compiled language that conforms to the ECMAScript standard.  It has dynamic typing, prototype-based object-orientation, and first-class functions. It is multi-paradigm, supporting event-driven, functional, and imperative programming styles. It has application programming interfaces (APIs) for working with text, dates, regular expressions, standard data structures, and the Document Object Model (DOM). The ECMAScript standard does not include any input/output (I/O), such as networking, storage, or graphics facilities. In practice, the web browser or other runtime system provides JavaScript APIs for I/O.
+
+- what is ECMAScript?
 
 - what is NodeJs?
+	- *Wikipedia* : Node.js is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command line tools and for server-side scripting—running scripts server-side to produce dynamic web page content before the page is sent to the user's web browser. Consequently, Node.js represents a "JavaScript everywhere" paradigm, unifying web-application development around a single programming language, rather than different languages for server-side and client-side scripts. Node.js has an event-driven architecture capable of asynchronous I/O. These design choices aim to optimize throughput and scalability in web applications with many input/output operations, as well as for real-time Web applications (e.g., real-time communication programs and browser games). The Node.js distributed development project was previously governed by the Node.js Foundation, and has now merged with the JS Foundation to form the OpenJS Foundation, which is facilitated by the Linux Foundation's Collaborative Projects program.
+	- *W3Schools* : Node.js is an free and open source server environment which can runs on various platforms. Node.js uses JavaScript on the server
+	-	*MDN* : Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
 
 - what is "use strict"?
 
-- wahi is ECMAScript?
 
 - what is run time environment?
 
