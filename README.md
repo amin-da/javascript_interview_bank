@@ -90,9 +90,15 @@ You will find two main sections in here :
 	- *MDN* : JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code. Hoisting allows functions to be safely used in code before they are declared. Variable and class declarations are also hoisted, so they too can be referenced before they are declared. However JavaScript only hoists declarations, not initializations! This means that initialization doesn't happen until the associated line of code is executed, even if the variable was originally initialized then declared, or declared and initialized in the same line. Until that point in the execution is reached the variable has its default initialization (undefined for a variable declared using var, otherwise uninitialized) Note that doing so can lead to unexpected errors, and is not generally recommended.
 	- *Medium (zeeshan.shamsuddeen)* : Technically, all JS variables are hoisted. Where let and cost differs from var in the hoisting process is in the initialization part.
 
-- what is Falsy values?
+- falsy values (MDN)
 
-- what is Logical operators?
+| boolean type  | values  |
+| ------------ | ------------ |
+| falsy  |  false , 0 , -0 , 0n (The BigInt zero) , "" , '' , null , undefined , NaN   |
+|  truthy |  other values |
+
+
+- logical operators?
 
 - == , ===
 
