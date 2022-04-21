@@ -78,8 +78,13 @@ You will find two main sections in here :
 |  let |  Block  |  No (but actually yes!)  | Yes   | Yes |
 |  const | Block   | No (but actually yes!)   |  No  | Yes |
 
+- null , undefined (flexiple.com)
 
-- null , undefined
+| Keyword  | data type  | arithmetic operations  |  boolean value | comparing |
+| ------------ | ------------ | ------------ | ------------ |------------ |
+| undefined  | undefined  |  undefined + 1 //NaN |  !!undefined //false | null == undefined //true |
+|  null | object (but it considered as primitive)  | null + 1 // 0  | !!null //false  | null === undefined //false |
+
 
 - hositing (medium.com/swlh/is-let-really-not-hoisted-abb75c38607e)
 
@@ -100,8 +105,6 @@ You will find two main sections in here :
 - objects
 
 - array of objects
-
-- scope
 
 - ES6 features
 
