@@ -23,8 +23,8 @@ You will find two main sections in here :
 **Level : Junior**
 
 - what is JavaScript?
-   *1
-    *2
+	- MDN : JavaScript is a scripting or programming language that allows you to implement complex features on web pages.
+	- W3Schools : JavaScript is the Programming Language for the Web. Can update and change both HTML and CSS. Can calculate, manipulate and validate data
 
 - what is NodeJs?
 
