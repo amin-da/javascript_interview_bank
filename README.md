@@ -38,8 +38,6 @@ You will find two main sections in here :
 	- *W3Schools* : Node.js is an free and open source server environment which can runs on various platforms. Node.js uses JavaScript on the server
 	-	*MDN* : Node.js is a cross-platform JavaScript runtime environment that allows developers to build server-side and network applications with JavaScript.
 
-- what is "use strict"?
-
 - what is run time environment?
 	- *CodeAcademy* : A runtime environment is where your program will be executed. It determines what global objects your program can access and it can also impact how it runs.
 	- *Google* : In Apps Script and JavaScript, a runtime or runtime environment contains the JavaScript engine that parses and executes script code. The runtime provides rules for how memory is accessed, how the program can interact with the computer's operating system, and what program syntax is legal.
@@ -51,27 +49,23 @@ You will find two main sections in here :
 
 	Its good to be mindful that the runtime environment can take on different forms based on the context, for example, the runtime environment in a browser is very different from that of Node.js. These differences are primarily at the implementation level, so most of the following concepts are still relevant.
 
-- what is JSON?
-
-- what is Falsy values?
-
-- what is Logical operators?
-
-- what is DOM?
-
 - data types?
-
-- what is wrapper object?
-
-- difference between primitive and referenced types?
 
 - let , var , const
 
 - null , undefined
 
+- what is Falsy values?
+
+- what is Logical operators?
+
 - == , ===
 
-- difference between POST and Get methods in Http requests.
+- difference between primitive and referenced types?
+
+- what is JSON?
+
+- what is "use strict"?
 
 - arrays and methods (map , filter , find , reduce , some , every , indexOf , sort)
 
@@ -81,15 +75,23 @@ You will find two main sections in here :
 
 - scope
 
-- explain some Feature in ES6
+- ES6 features
 
-- explain spread operator
+- ES7 features
 
-- explain Object Destructuring 
+- spread operator
 
-- explain Default Parameters
+- rest operator
 
-- what is continue operator?
+- object Destructuring 
+
+- default parameters
+
+- what is wrapper object?
+
+- difference between POST and Get methods in Http requests.
+
+- continue and break
 
 **Level : Middle**
 
