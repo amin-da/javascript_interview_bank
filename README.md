@@ -138,6 +138,34 @@ You will find two main sections in here :
 		- Square brackets hold arrays
 
 - what is "use strict"?
+	- *W3Schools* : It is not a statement, but a literal expression, ignored by earlier versions of JavaScript. The purpose of "use strict" is to indicate that the code should be executed in "strict mode". With strict mode, you can not, for example, use undeclared variables. Strict mode changes previously accepted "bad syntax" into real errors. In strict mode, any assignment to a non-writable property, a getter-only property, a non-existing property, a non-existing variable, or a non-existing object, will throw an error.
+	- JavaScript's strict mode, introduced in ECMAScript 5, is a way to opt in to a restricted variant of JavaScript, thereby implicitly opting-out of "sloppy mode". Strict mode isn't just a subset: it intentionally has different semantics from normal code. Browsers not supporting strict mode will run strict mode code with different behavior from browsers that do, so don't rely on strict mode without feature-testing for support for the relevant aspects of strict mode. Strict mode code and non-strict mode code can coexist, so scripts can opt into strict mode incrementally. Strict mode applies to entire scripts or to individual functions. It doesn't apply to block statements enclosed in {} braces; attempting to apply it to such contexts does nothing. Strict mode makes several changes to normal JavaScript semantics :
+		- Eliminates some JavaScript silent errors by changing them to throw errors.
+		- Fixes mistakes that make it difficult for JavaScript engines to perform optimizations: strict mode code can sometimes be made to run faster than identical code that's not strict mode.
+		- Prohibits some syntax likely to be defined in future versions of ECMAScript.
+
+```javascript
+// Whole-script strict mode syntax
+'use strict';
+var v = "Hi! I'm a strict mode script!";
+```
+
+```javascript
+function strict() {
+  // Function-level strict mode syntax
+  'use strict';
+  function nested() { return 'And so am I!'; }
+  return "Hi!  I'm a strict mode function!  " + nested();
+}
+function notStrict() { return "I'm not strict."; }
+```
+
+```javascript
+function strict() {
+    // because this is a module, I'm strict by default
+}
+export default strict;
+```
 
 - arrays and methods (map , filter , find , reduce , some , every , indexOf , sort)
 
