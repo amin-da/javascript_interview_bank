@@ -75,8 +75,8 @@ You will find two main sections in here :
 |  Keyword  |  Scope  | Hoisting   | Can Be Reassigned  | Can Be Redeclared|
 | :------------ | :------------ | :------------ | :------------ | :------------ |
 |  var |  Function  |  Yes  |  Yes  | Yes |
-|  let |  Block  |  No (but actually yes!)  | Yes   | Yes |
-|  const | Block   | No (but actually yes!)   |  No  | Yes |
+|  let |  Block  |  No (but actually yes!)  | Yes   | No |
+|  const | Block   | No (but actually yes!)   |  No  | No |
 
 - null , undefined (flexiple.com)
 
